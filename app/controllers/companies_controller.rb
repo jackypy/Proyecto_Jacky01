@@ -3,6 +3,9 @@ class CompaniesController < ApplicationController
 
   # GET /companies
   # GET /companies.json
+def home
+end 
+
   def index
     @companies = Company.all
   end
